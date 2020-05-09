@@ -8,6 +8,7 @@ services:
     container_name: catalog
     ports:
       - 3000:3000
-    env_file: ./.env.dev
+    environment:
+      - HOST=0.0.0.0
     volumes:
       - .:/home/node/app
