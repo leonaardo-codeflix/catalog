@@ -1,5 +1,6 @@
-import {Application} from './application';
+import './bootstrap';
 import {ApplicationConfig} from '@loopback/core';
+import {Application} from './application';
 
 export {Application};
 
